@@ -5,4 +5,5 @@ ultralytics==8.0.196
 torch
 torchvision
 from_root
+flask
 -e .
