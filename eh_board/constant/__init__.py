@@ -1,1 +1,2 @@
-MODEL_PATH: str = '../../weights/model.pt'
+MODEL_PATH: str = 'model.pt'
+IMAGE_SAVE_DIR: str = 'runs'
