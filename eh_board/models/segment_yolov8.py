@@ -11,9 +11,4 @@ if os.path.exists(IMAGE_SAVE_DIR):
     
 def seg_image(image_path, save=True):
         results = model.predict(image_path, save=True)
-
-
-
-image_path = r'D:\YoloV8\Elephant_House_Board_Identification\data\image.jpg'
-seg_image(image_path)
-
+        return results
