@@ -1,0 +1,9 @@
+.venv
+data
+eh_board.egg-info
+runs
+upload
+README.md
+LICENSE
+yolov8n.pt
+research
