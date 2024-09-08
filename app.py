@@ -28,6 +28,8 @@ def predict():
 
         board_types = get_board_types(image_path)
 
+        os.remove(image_path)
+
         return jsonify({'board_types': list(board_types)}), 200
 
 if __name__ == '__main__':
