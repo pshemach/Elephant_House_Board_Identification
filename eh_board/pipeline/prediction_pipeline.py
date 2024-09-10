@@ -11,7 +11,7 @@ def get_board_types(image_path):
                 if box.conf > CONFIDENCE_THRESHOLD:
                     class_idx = int(box.cls)
                     class_name = result.names[class_idx]
-                    board_types.append([class_name,round(box.conf.item(),2)])
+                    board_types.append([class_name,box.conf.item(),2])
 
     # unique_classes = set(board_types)
     
