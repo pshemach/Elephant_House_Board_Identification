@@ -1,4 +1,4 @@
-CONFIDENCE_THRESHOLD: float = 0.5
+CONFIDENCE_THRESHOLD: float = 0.75
 
 IMAGE_SAVE_DIR: str = 'upload'
 
