@@ -10,6 +10,6 @@ def seg_image(image_path, save=True):
         if os.path.exists(PRED_IMAGE_SAVE_DIR):
             shutil.rmtree(PRED_IMAGE_SAVE_DIR)
 
-        results = model.predict(image_path, conf=CONFIDENCE_THRESHOLD, save=save)
+        results = model.predict(image_path, conf=CONFIDENCE_THRESHOLD)
 
         return results
