@@ -2,8 +2,8 @@ from eh_board.models.segment_yolov8 import seg_image
 from eh_board.constant import CONFIDENCE_THRESHOLD
 
 
-def get_board_types(image_path):
-    results = seg_image(image_path=image_path)
+def get_board_types(image):
+    results = seg_image(image=image)
     board_types = []
 
     for result in results:
